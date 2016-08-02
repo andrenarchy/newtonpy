@@ -1,8 +1,6 @@
 language: python
 python:
   - "3.5"
-virtualenv:
-    system_site_packages: true
 before_install:
     - sudo add-apt-repository -y ppa:pylab/stable
     - sudo apt-get update -qq
